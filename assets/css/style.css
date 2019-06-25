@@ -1,0 +1,150 @@
+
+header{
+    position:relative;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 3px solid lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 20px;
+    margin-bottom: 50px; /* reserve space for footer */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F9FA;
+}
+
+#box {
+    float:left;
+    position: absolute;
+    background-color:#4aaaa5;
+    padding: 20px;
+    margin: 0;
+    margin-top: 20px;
+    bottom:0px;
+    left: 360px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eee;
+    text-align: center;
+}
+
+#text{
+   position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 28px;
+   color: #4aaaa5;
+    margin-top: 20px;
+    top: 120px;
+    right: 66%;
+}
+
+#text1{
+  position:absolute;
+  margin-top: 60px;
+}
+
+#card {
+height: 150px;
+width: 150px;
+margin:20px;
+}
+
+.wrapper
+{
+padding: 20px;
+background-color: #dddddd;
+}
+
+#container
+{
+width: 960px;
+margin: 0 auto;
+background-color: white;
+}
+
+footer{
+    position: relative;
+    font-size: 12px;     
+    text-align: center;  
+    bottom: 0px; 
+    width: 100%;
+    height: 50px;
+    background-color:#666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    position: relative; /* make sure footer will not block the content */
+    min-height: 100%; /* make sure footer stay at bottom with smaller content */ 
+  }
+
+  .box-set {
+    position: relative;
+    height: 700px;
+    background: white;
+  }
+  
+  .strong{
+    margin-left:40px;
+    margin-top:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px; color: #4aaaa5;
+  }
+  .text {
+    position: absolute;
+    width: 195px;
+    height: 45px;
+    background: #4aaaa5;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .text-1 {
+    top: 130px;
+    left: 35px;
+  }
+  
+  .text-2 {
+    top: 355px;
+    left: 35px;
+    z-index: 3;
+  }
+  
+  .text-3 {
+    top: 580px;
+    left: 35px;
+    z-index: 2;
+  }
+  
+  .text-4 {
+    top: 120px;
+    left: 280px;
+    z-index: 1;
+  }
+
+  .text-5 {
+    top: 355px;
+    left: 280px;
+    z-index: 4;
+  }
+  
+  .text-6 {
+    top: 580px;
+    left: 280px;
+    z-index: 5;
+  }
+
+  #textboxid {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    line-height: 5px;
+    padding: 0 5px;
+    width: 860px;
+  }
